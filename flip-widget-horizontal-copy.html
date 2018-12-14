@@ -1,0 +1,210 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/custom-styles.css">
+  <link rel="stylesheet" src="css/normalize.css">
+  </script>
+  <script src="widget-templates/shared-resources/js/vendor/modernizr.js"></script>
+
+  <style>
+    .text-container,
+    .icon-container,
+    .back {
+      background-color: black;
+      /*  Set the front and back background colour */
+      color: white;
+      /*  Set the front and back text colour */
+    }
+
+    img{
+        width: 300px;
+        height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="row">
+
+    <div class="main">
+      <div class="container">
+        <div id="card1">
+          <div class="front">
+            <div class="content">
+              <div class="icon-container">
+                <img class="icon" src="images/car_1.jpg">
+              </div>
+              <div class="text-container">
+                <h1 class="text-container-header">Kitchoow!</h1>
+                <!-- Front text -->
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <h1>Lightning McQueen</h1>
+            <p>"Float like a Cadillac, sting like a Beemer."</p>
+            <!-- Back text -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <div id="card2">
+          <div class="front">
+            <div class="content">
+              <div class="icon-container">
+                <img class="icon" src="images/car_2.jpg">
+              </div>
+              <div class="text-container">
+                <h1 class="text-container-header">I knew it! I knowed I made a good choice!</h1>
+                <!-- Front text -->
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <h1>Mater</h1>
+            <p>[spits out fuel] He did WHAT in his cup? My bes' friend.</p>
+            <!-- Back text -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <div id="card3">
+          <div class="front">
+            <div class="content">
+              <div class="icon-container">
+                <img class="icon" src="images/car_3.jpg">
+              </div>
+              <div class="text-container">
+                <h1 class="text-container-header">The King</h1>
+                <!-- Front text -->
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <h1>The King</h1>
+            <p>I'm the legendary, blue till my belly, handsome and then some King</p>
+
+              <!-- Back text-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <div id="card4">
+          <div class="front">
+            <div class="content">
+              <div class="icon-container">
+                <img class="icon" src="images/car_4.jpg">
+              </div>
+              <div class="text-container">
+                <h1 class="text-container-header">Holy Porche(a)</h1>
+                <!-- Front text -->
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <h1>Sally</h1>
+            <p>(Holy Porchea)</p>
+            <br>
+            <p>Customers!</p>
+            <br>
+            <p>Come on,</p>
+            <br>
+            <p>Let's take a drive</p>
+
+
+              <!-- Back text-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <div id="card5">
+          <div class="front">
+            <div class="content">
+              <div class="icon-container">
+                <img class="icon" src="images/car_5.jpeg">
+              </div>
+              <div class="text-container">
+                <h1 class="text-container-header">Cars</h1>
+                <!-- Front text -->
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <h1>The Squad</h1>
+            <p>Life don't mean nothing unless you got a team!</p>
+
+              <!-- Back text-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+<!-- </div> -->
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+  <script>
+    $("#card1").flip({
+      axis: 'y',
+      trigger: 'click',
+      autoSize: true
+    });
+  </script>
+
+  <script>
+    $("#card2").flip({
+      axis: 'y',
+      trigger: 'click',
+      autoSize: true
+    });
+  </script>
+
+  <script>
+    $("#card3").flip({
+      axis: 'y',
+      trigger: 'click',
+      autoSize: true
+    });
+  </script>
+
+  <script>
+    $("#card4").flip({
+      axis: 'y',
+      trigger: 'click',
+      autoSize: true
+    });
+  </script>
+
+  <script>
+    $("#card5").flip({
+      axis: 'y',
+      trigger: 'click',
+      autoSize: true
+    });
+  </script>
+
+
+</body>
+</html>
